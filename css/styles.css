@@ -39,7 +39,7 @@ body {
 .nav-link:hover {
     color: #ffc400!important;
   }
-  
+
 .nav-link {
     color: white!important;
 }
@@ -51,3 +51,27 @@ body {
 .c {
     padding: 10%;
 }
+
+
+/* Inicio 4 recuadros con imagen y texto */
+
+.card-recuadros {
+    /* Estilos predeterminados */
+    transform: scale(1);
+    box-shadow: none;
+    margin:auto;
+    /*Transiciones */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 10px;
+    }
+    
+    
+    .card-recuadros:hover {
+    /* Estilos al pasar el cursor */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ffc400;
+    }
+
+/* Fin 4 recuadros con imagen y texto */
