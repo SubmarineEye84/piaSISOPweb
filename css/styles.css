@@ -72,7 +72,7 @@ body {
     float:left;
     margin:10px;
     background-color:#333;
-    
+    -webkit-box-reflect: below -400px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.10)))
     }
     
 
@@ -86,21 +86,11 @@ body {
     border-radius: 14px 14px 0px 0px;
     }
 
-@keyframes desplazar {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(0%); }
-}
-
-.animation-text {
-    animation-name: desplazar;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
 
 .text-title {
     text-align: center;
     font-size: 20px;
-    color:#ffc400;
+    color:#ffc400;   
 
 }
 .text-format {
