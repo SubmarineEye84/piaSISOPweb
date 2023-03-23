@@ -53,7 +53,7 @@ body {
 }
 
 
-/* Inicio 4 recuadros con imagen y texto */
+/* Inicio 5 recuadros con imagen y texto */
 .contenedor {
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ body {
     /*Transiciones */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     width: 300px;
-    height: 515px;
+    height: 510px;
     border: 7px outset #333;
     border-radius: 20px 20px 20px 20px;
     float:left;
@@ -86,6 +86,17 @@ body {
     border-radius: 14px 14px 0px 0px;
     }
 
+@keyframes desplazar {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+.animation-text {
+    animation-name: desplazar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
 .text-title {
     text-align: center;
     font-size: 20px;
@@ -96,5 +107,7 @@ body {
     text-align: justify;
     margin: 10px;
     color: white;
+    font-size: 15px;
 }
-/* Fin 4 recuadros con imagen y texto */
+/* Fin 5 recuadros con imagen y texto */
+
