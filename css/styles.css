@@ -54,24 +54,47 @@ body {
 
 
 /* Inicio 4 recuadros con imagen y texto */
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
 
 .card-recuadros {
     /* Estilos predeterminados */
     transform: scale(1);
     box-shadow: none;
-    margin:auto;
     /*Transiciones */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     width: 300px;
-    height: 500px;
-    margin-bottom: 10px;
+    height: 515px;
+    border: 7px outset #333;
+    border-radius: 20px 20px 20px 20px;
+    float:left;
+    margin:10px;
+    background-color:#333;
+    
     }
     
-    
+
     .card-recuadros:hover {
     /* Estilos al pasar el cursor */
     transform: scale(1.05);
-    box-shadow: 0 0 10px #ffc400;
+    box-shadow: 0 0 20px #ffc400;
     }
 
+.img   {
+    border-radius: 14px 14px 0px 0px;
+    }
+
+.text-title {
+    text-align: center;
+    font-size: 20px;
+    color:#ffc400;
+
+}
+.text-format {
+    text-align: justify;
+    margin: 10px;
+    color: white;
+}
 /* Fin 4 recuadros con imagen y texto */
