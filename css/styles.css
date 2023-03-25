@@ -101,6 +101,29 @@ body {
 }
 /* Fin 5 recuadros con imagen y texto */
 
-.card-body {
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+/*.card-body {
     padding: 0;
+}
+*/
+
+.btn-pia {
+    color: #ffffff;
+			background-color: #000000;
+			/*font-size: 26px;*/
+			border: 3px solid #ffc400;
+			border-radius: 19px;
+			padding: 15px 50px;
+			letter-spacing: 6px;
+			cursor: pointer
+}
+
+.btn-pia:hover {
+    color: #ffc400;
+    background-color: #ffffff;
 }
