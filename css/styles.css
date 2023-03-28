@@ -29,12 +29,15 @@ body {
 }
 
 .navbar {
-    background: #333!important;
+    background: #464646!important;
+
 }
 
 .navbar-brand {
     color: white!important;
+
 }
+
 
 .nav-link:hover {
     color: #ffc400!important;
@@ -52,6 +55,27 @@ body {
     padding: 10%;
 }
 
+.navbar-container {
+    position: relative;
+  }
+  
+.navbar-logo {
+    position: absolute;
+    top: 0;
+    left: -250px;
+
+    width: 100px; /* Modifica el valor según el tamaño de tu logo */
+    height: auto;
+    margin: 5px; /* Modifica el valor según la distancia que deseas del borde */
+  }
+  
+  .navbar-brand:hover img {
+    filter: brightness(1.2);
+    background-color: #ffc4002a;
+    border-radius: 5px 5px 5px 5px;
+    border: 100px;
+    size: 105%;
+  }
 
 /* Inicio 5 recuadros con imagen y texto */
 /*.contenedor {
@@ -66,7 +90,7 @@ body {
     /*Transiciones */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     width: 100%;
-    height: 510px;
+    height: 550px;
     border: 7px outset #333;
     border-radius: 20px 20px 20px 20px;
     float:left;
@@ -82,10 +106,6 @@ body {
     box-shadow: 0 0 20px #ffc400;
     }
 
-.img   {
-    border-radius: 14px 14px 0px 0px;
-    }
-
 
 .text-title {
     text-align: center;
@@ -99,6 +119,9 @@ body {
     color: white;
     font-size: 15px;
 }
+
+
+
 /* Fin 5 recuadros con imagen y texto */
 
 .card {
@@ -127,3 +150,59 @@ body {
     color: #ffc400;
     background-color: #ffffff;
 }
+
+
+/* Banner */
+.banner {
+  position: relative;
+  height: 500px; 
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.banner .text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner .text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner .text .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner .text .button:hover {
+  background-color: #ffc400;
+  color: #000;
+  font-size: 105%;
+}
+/* Banner */
+  
+   

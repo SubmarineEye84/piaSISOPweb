@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+<head></head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,35 +17,73 @@
     <title>Sistema Linux</title>
 </head>
 
+<!-- BARRA DE MENU-->
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container justify-content-center">
-            <a class="navbar-brand" href="#">Linux</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-                <ul class="navbar-nav text-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre Linux</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="acts.html">Actividades Fundamentales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aboutus.html">Sobre nosotros</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="container justify-content-center navbar-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logolinux.png" alt="Logo" class="navbar-logo" height="50px" width="50px" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre Linux</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acts.html">Actividades Fundamentales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">Sobre nosotros</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    <!--<div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>-->
+      </nav>
+<!-- BARRA DE MENU-->
+
+
+<!--BANNER-->
+    <div class="banner">
+        <video autoplay muted loop>
+          <source src="img/background.mp4" type="video/mp4" >
+        </video>
+        <div class="text">
+          <h1>¿Qué es Linux?</h1>
+          <p>Linux es un sistema operativo tipo Unix y de código abierto.<br>
+            Su nombre oficial es GNU/Linux, aunque en general solo suele referirse a él como Linux.</p>
+          <a href="#mas-informacion" class="button"><b>Ver más</b></a>
+        </div>
+      </div>
+<!--BANNER-->
+
+
+<!--MAS INFORMACION-->
+      <section id="mas-informacion">
+        <h2>Más información sobre Linux</h2>
+        <p>En esta sección puedes encontrar más información sobre Linux...</p>
+      </section>
+      
+      <script>
+        // Función para desplazamiento suave al hacer clic en enlaces internos
+        const enlacesInternos = document.querySelectorAll('a[href^="#"]');
+        for (let enlace of enlacesInternos) {
+          enlace.addEventListener('click', function (e) {
+            e.preventDefault();
+            const destino = document.querySelector(this.getAttribute('href'));
+            destino.scrollIntoView({ behavior: 'smooth' });
+          });
+        }
+      </script>
+<!--MAS INFORMACION-->
+
+
+
+
+     <!--    
     <div class="container text-center">
         <div class="row">
             <div class="col-12">
@@ -151,12 +189,22 @@
             </div>
         </div>
     </div>
+    -->
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container text-center">
         <div class="row">
             <div class="col-12">
                 <h2>
                     Caracteristicas de Linux
                 </h2>
+            
+    <br>
+    <br>
             </div>
             <div class="col-12">
                 <div class="row row-cols-1 row-cols-lg-5 g-4">
