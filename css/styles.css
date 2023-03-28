@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f5f5f7;
+    background-color: #e2dfdf;
     padding-top: 56px;
 }
 
@@ -77,11 +77,43 @@ body {
     size: 105%;
   }
 
+
+
+
+/*Mas informacion*/
+.mas-info {
+    /* Estilos predeterminados */
+    transform: scale(1);
+    box-shadow: none;
+    /*Transiciones */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    float:left;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color:#ffffff;
+    -webkit-box-reflect: below -400px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.10)));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+
+.mas-info:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #5c5c5b;
+        }
+
+.cuadro-info-img {
+    margin-top: 90px;
+    margin-left: 220px;
+}
+/*Mas informacion*/
+
+
 /* Inicio 5 recuadros con imagen y texto */
-/*.contenedor {
-    display: flex;
-    justify-content: center;
-}*/
 
 .card-recuadros {
     /* Estilos predeterminados */
@@ -155,7 +187,7 @@ body {
 /* Banner */
 .banner {
   position: relative;
-  height: 500px; 
+  height: 600px; 
 }
 
 .banner video {
@@ -178,13 +210,14 @@ body {
 }
 
 .banner .text h1 {
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
 .banner .text p {
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 20px;
+  color: #ffc400;
 }
 
 .banner .text .button {
