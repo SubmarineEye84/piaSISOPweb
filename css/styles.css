@@ -168,69 +168,72 @@ body {
 
 /* LINEA DEL TIEMPO*/
 .linea-de-tiempo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    padding: 30px 0;
-    margin-top: 100px;
-  }
-  
-  article {
-    position: relative;
-    width: 1000px;
-    height: 200px;
-    margin: 0 30px;
-    padding: 7px;
-    background-color: #000000;
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-  
-  article:before {
-    content: "";
-    position: absolute;
-    top: 25px;
-    right: -17px;
-    height: 0;
-    width: 0;
-    border-top: 17px solid transparent;
-    border-left: 17px solid #000000;
-    border-bottom: 17px solid transparent;
-  }
-  
-  time {
-    display: block;
-    font-size: 1.1em;
-    color: #888;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding: 30px 0;
+  margin-top: 100px;
+}
+.linea-de-tiempo article p {
+  font-size: 16px;
+  color: #fff;
+}
+article {
+  position: relative;
+  width: 250px; /* Modifica aquí el ancho de los eventos */
+  height: 200px;
+  margin: 0 30px;
+  padding: 7px;
+  background-color: #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+article:before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  right: -17px;
+  height: 0;
+  width: 0;
+  border-top: 17px solid transparent;
+  border-left: 17px solid #000000;
+  border-bottom: 17px solid transparent;
+}
+
+time {
+  display: block;
+  font-size: 1.6em;
+  color: #888;
+}
 
 .article-final {
-    position: relative;
-    width: 700px;
-    margin: 0 30px;
-    padding: 10px;
-    background-color: #000000;
-    border-radius: 10px;
-    box-sizing: border-box;
+  position: relative;
+  width: 70px;
+  margin: 0 30px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .article-final::before{
-    content: "";
-    position: absolute;
-    top: 25px;
-    right: 17px;
-    height: 0;
-    width: 0;
-    border-top: 0px solid transparent;
-    border-left: 0px solid #000000;
-    border-bottom: 0px solid transparent;
+  content:"";
+  position: absolute;
+  top: 25px;
+  right: 17px;
+  height: 0;
+  width: 0;
+  border-top: 0px solid transparent;
+  border-left: 0px solid #000000;
+  border-bottom: 0px solid transparent;
 }
 
 .text-linea {
-    font-size: 15px;
-    color:white;
+  font-size: 15px;
+  color:white;
 }
 
 
@@ -333,7 +336,7 @@ body {
 }
 
 .banner .text h1 {
-  font-size: 50px;
+  font-size: 75px;
   margin-bottom: 10px;
 }
 
