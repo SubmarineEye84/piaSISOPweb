@@ -143,7 +143,7 @@ body {
     height: 500px;
     border-radius: 20px 20px 20px 20px;
     /* float:left; */
-    margin-left: -200px;
+    margin-left: -100px;
     margin-right: auto;
     background-color:#ffffff;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -174,68 +174,16 @@ body {
   align-items: flex-start;
   position: relative;
   padding: 30px 0;
-  margin-top: 100px;
-}
-.linea-de-tiempo article p {
-  font-size: 16px;
-  color: #fff;
-}
-article {
-  position: relative;
-  width: 250px; /* Modifica aquí el ancho de los eventos */
-  height: 200px;
-  margin: 0 30px;
-  padding: 7px;
-  background-color: #000000;
-  border-radius: 10px;
-  box-sizing: border-box;
-}
+  margin-top: -87px;
+  margin-left: 190px;
+  
 
-article:before {
-  content: "";
-  position: absolute;
-  top: 25px;
-  right: -17px;
-  height: 0;
-  width: 0;
-  border-top: 17px solid transparent;
-  border-left: 17px solid #000000;
-  border-bottom: 17px solid transparent;
-}
 
-time {
-  display: block;
-  font-size: 1.6em;
-  color: #888;
 }
-
-.article-final {
-  position: relative;
-  width: 70px;
-  margin: 0 30px;
-  padding: 10px;
-  background-color: #000000;
-  border-radius: 10px;
-  box-sizing: border-box;
-}
-
-.article-final::before{
-  content:"";
-  position: absolute;
-  top: 25px;
-  right: 17px;
-  height: 0;
-  width: 0;
-  border-top: 0px solid transparent;
-  border-left: 0px solid #000000;
-  border-bottom: 0px solid transparent;
-}
-
-.text-linea {
-  font-size: 15px;
-  color:white;
-}
-
+.linea-de-tiempo:hover {
+  transform: scale(1.02);
+  
+  }
 
 /*Mas informacion*/
 
