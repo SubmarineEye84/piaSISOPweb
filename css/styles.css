@@ -457,3 +457,8 @@ time {
 /* Elementos responsivos */
 
 }
+
+.border-linux {
+  --bs-border-opacity: 1;
+  border-color: #ffc400;
+}
