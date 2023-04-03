@@ -18,7 +18,6 @@
 </head>
 
 <!-- BARRA DE MENU-->
-
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container justify-content-center navbar-container">
@@ -45,8 +44,7 @@
         </div>
     </nav>
     <!-- BARRA DE MENU-->
-
-
+<!-- No hace falta usar tantos break, puedes usar la clase p-x donde x es el numero de padding que vas a estar agregando, lo cual consigue el mismo efecto de separación https://getbootstrap.com/docs/5.3/utilities/spacing/#margin-and-padding -->
     <!--BANNER-->
     <div class="banner">
         <video autoplay muted loop>
@@ -71,6 +69,7 @@
 
       
         <!--MAS INFORMACION-->
+        <!-- Aquí podemos usar una tarjeta de bootstrap si sigue dando problemas, lo voy a estar -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -133,12 +132,11 @@
     <!--MAS INFORMACION-->
 
 
-
     <div class="container text-center">
         <div class="row">
             <div class="col-12 p-5">
                 <h2>
-                    Caracteristicas de Linux
+                    Características de Linux
                 </h2>
    
    
@@ -149,10 +147,8 @@
                         <div class="card card-recuadros">
                             <img src="img/1.jpg" class="card-img-top" alt="..." width="250" height="200">
                             <div class="card-body">
-                                <h5 class="card-title text-title">Multitarea y Multiusuario</h5>
-                                <p class="card-text text-format">La potencia de este sistema permite ejecutar a la vez
-                                    numerosos programas y aplicaciones. Además, permite que múltiples usuarios accedan a
-                                    sus recursos de forma simultánea y segura.</p>
+                                <h5 class="card-title text-title">Multitarea y multiusuario</h5>
+                                <p class="card-text text-format">La potencia de este sistema permite ejecutar a la vez numerosos programas y aplicaciones. Además, permite que múltiples usuarios accedan a sus recursos de forma simultánea y segura.</p>
                             </div>
                         </div>
                     </div>
@@ -160,10 +156,8 @@
                         <div class="card card-recuadros">
                             <img src="img/2.jpg" class="card-img-top" alt="..." width="250" height="200">
                             <div class="card-body">
-                                <h5 class="card-title text-title">Codigo abierto</h5>
-                                <p class="card-text text-format">Cualquier profesional puede desarrollar y distribuir
-                                    nuevas funciones, sin necesidad de permisos ni protocolos previos. Esto agiliza la
-                                    aparición de mejoras y actualizaciones.</p>
+                                <h5 class="card-title text-title">Código abierto</h5>
+                                <p class="card-text text-format">Cualquier profesional puede desarrollar y distribuir nuevas funciones, sin necesidad de permisos ni protocolos previos. Esto agiliza la aparición de mejoras y actualizaciones.</p>
                             </div>
                         </div>
                     </div>
@@ -172,10 +166,7 @@
                             <img src="img/3.jpg" class="card-img-top" alt="..." width="250" height="200">
                             <div class="card-body">
                                 <h5 class="card-title text-title">Altamente seguro.</h5>
-                                <p class="card-text text-format">Como se trata de un software libre, los delincuentes
-                                    informáticos no tienen mucho interés en desarrollar virus para Linux. Además, su
-                                    arquitectura dificulta la aparición de malware y facilita la eliminación de
-                                    cualquier amenaza.</p>
+                                <p class="card-text text-format">Como se trata de un software libre, los delincuentes informáticos no tienen mucho interés en desarrollar virus para Linux. Además, su arquitectura dificulta la aparición de malware y facilita la eliminación de cualquier amenaza.</p>
                             </div>
                         </div>
                     </div>
@@ -183,12 +174,9 @@
                         <div class="card card-recuadros">
                             <img src="img/4.jpg" class="card-img-top" alt="..." width="250" height="200">
                             <div class="card-body">
-                                <h5 class="card-title text-title">Redes y Telecomunicaciones</h5>
-                                <p class="card-text text-format">La superioridad de Linux sobre otros sistemas
-                                    operativos es evidente en sus utilerías para redes y comunicaciones. Ningún otro
-                                    sistema operativo incluye capacidades para red tan estrechamente acopladas. Linux
-                                    soporta las siguientes interfaces de red: ethernet, fddi, token ring, arcnet, X.25,
-                                    ISDN, líneas seriales síncronas y asíncronas.</p>
+                                <h5 class="card-title text-title">Redes y telecomunicaciones</h5>
+                                <p class="card-text text-format">La superioridad de Linux sobre otros sistemas operativos es evidente en sus utilerías para redes y comunicaciones. Ningún otro sistema operativo incluye capacidades para red tan estrechamente acopladas. Linux
+                                    soporta las siguientes interfaces de red: ethernet, fddi, token ring, arcnet, X.25, ISDN, líneas seriales síncronas y asíncronas.</p>
                             </div>
                         </div>
                     </div>
@@ -196,12 +184,53 @@
                         <div class="card card-recuadros">
                             <img src="img/5.jpg" class="card-img-top" alt="..." width="250" height="200">
                             <div class="card-body">
-                                <h5 class="card-title text-title">Ambiente Gráfico</h5>
-                                <p class="card-text text-format">Linux proporciona la capacidad de ejecutar aplicaciones
-                                    gráficas mediante una red heterogénea al incorporar la revisión 6 del estándar X11
-                                    del MIT, conocido también simplemente como X-Window. Con el hardware adecuado, las
-                                    Estaciones de Trabajo Linux son una alternativa de bajo costo a las Estaciones de
-                                    Trabajo de alto rendimiento.</p>
+                                <h5 class="card-title text-title">Ambiente gráfico</h5>
+                                <p class="card-text text-format">Linux proporciona la capacidad de ejecutar aplicaciones gráficas mediante una red heterogénea al incorporar la revisión 6 del estándar X11 del MIT, conocido también simplemente como X-Window. Con el hardware adecuado, las estaciones de trabajo Linux son una alternativa de bajo costo a las estaciones de trabajo de alto rendimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-recuadros">
+                            <img src="img/6.png" class="card-img-top" alt="..." width="250" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title text-title">Personalizable</h5>
+                                <p class="card-text text-format">Linux es altamente personalizable y ofrece muchas opciones para ajustarlo a tus necesidades, incluyendo distros específicas para niños y para emuladores de juegos retro. También puedes usarlo a tu antojo, prepararlo y modificarlo según lo que requieras.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-recuadros">
+                            <img src="img/7.png" class="card-img-top" alt="..." width="250" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title text-title">Gratis</h5>
+                                <p class="card-text text-format">Una de las principales razones por las que muchos usuarios eligen Linux o al menos le dan una oportunidad es por el hecho de que se trata de un sistema operativo gratuito. Además, existen un montón de distribuciones para que podamos elegir la que más nos guste o mejor se adapte a nuestras necesidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-recuadros">
+                            <img src="img/8.png" class="card-img-top" alt="..." width="250" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title text-title">Seguro</h5>
+                                <p class="card-text text-format">Linux es un sistema operativo seguro debido a que es de código abierto, lo que reduce la posibilidad de ataques informáticos. Además, cuenta con una arquitectura robusta que evita fácilmente la permanencia de virus y malware. También posee un ecosistema de seguridad que permite un control granular, mejorando la privacidad del usuario.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-recuadros">
+                            <img src="img/9.png" class="card-img-top" alt="..." width="250" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title text-title">Escalable</h5>
+                                <p class="card-text text-format">Es un sistema operativo que debido en gran medida a muchas de las características mencionada anteriormente cuenta con una gran capacidad para reacción y adaptarse a las necesidades. Puede administrar de manera sencilla un crecimiento continuo y puede crecer rápidamente sin perder la calidad sin ningún problema.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-recuadros">
+                            <img src="img/10.jpg" class="card-img-top" alt="..." width="250" height="200">
+                            <div class="card-body">
+                                <h5 class="card-title text-title">Estable</h5>
+                                <p class="card-text text-format">Linux es considerado uno de los sistemas más robustos y estables, de ahí que sea el sistema más utilizado en servidores y ordenadores que tienen que permanecer siempre encendidos sin que nada falle. Además, es bastante seguro y normalmente es una de las opciones más recomendables.</p>
                             </div>
                         </div>
                     </div>
@@ -209,68 +238,67 @@
             </div>
         </div>
     </div>
-    <!--Inicio 5 recuadros con imagen y texto-->
-    <!--</div>-->
-    <!--
-    <div class="contenedor">
-        <div class="card-recuadros">
-            <img src="img/1.jpg" class="card-img-top img" alt="Imagen 1" width="250" height="200">
-            <div class="card-body">
-                <p class="card-text text-title">Multitarea y Multiusuario</p>
-                <p class="text-format">La potencia de este sistema permite ejecutar a la vez numerosos programas y
-                    aplicaciones.
-                    Además, permite que múltiples usuarios accedan a sus recursos de forma simultánea y segura.
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-5 text-center">
+                <h2>
+                    Ventajas y desventajas de Linux
+                </h2>
+            </div>
+            <div class="col-12">
+                <p>
+                    Linux ofrece numerosas ventajas, entre ellas, ser un sistema operativo gratuito, lo que permite probarlo sin problemas. Antes se consideraba que Linux era para usuarios expertos porque se controlaba principalmente desde la línea de comandos, pero ahora es fácil de usar. Incluso se puede elegir la interfaz gráfica que mejor se adapte a las necesidades y preferencias del usuario.
                 </p>
             </div>
-        </div>
-        <div class="card-recuadros">
-            <img src="img/2.jpg" class="card-img-top img" alt="Imagen 1" width="250" height="200">
-            <div class="card-body">
-                <p class="card-text text-title">Codigo abierto</p>
-                <p class="text-format">Cualquier profesional puede desarrollar y distribuir nuevas funciones,
-                    sin necesidad de permisos ni protocolos previos. Esto agiliza la aparición de mejoras y
-                    actualizaciones.
+            <div class="col-12 text-center p-4">
+                <h5>
+                    ¿Es Linux el sistema operativo más seguro?
+                </h5>
+            </div>
+            <div class="col-12 col-md-8">
+                <p>
+                    La seguridad es una de las grandes ventajas de Linux, aunque no se puede garantizar al 100%. La mayoría del malware que esta en internet esta pensado para atacar al sistema operativo mayoritario de computadoras para el hogar y trabajo, Windows, por eso decimos que es más seguro, pero si existe malware diseñado para Linux, solo que no ha habido casos tan sonados porque al ser un sistema muy personalizable, también lo son los ajustes específicos de cada usuario, lo que hace muy difícil para los hackers de sombrero negro el atacar a una cantidad alarmante de usuarios.
+                    <br><br>
+                    Estas razones son suficientes para que las empresas más grandes del mundo usen Linux para sus servidores (aparte de no pagar nada por usarlo) y no otras alternativas como la alternativa de Microsoft, Windows Server
                 </p>
             </div>
-        </div>
-        <div class="card-recuadros">
-            <img src="img/3.jpg" class="card-img-top img" alt="Imagen 1" width="250" height="200">
-            <div class="card-body">
-                <p class="card-text text-title">Altamente seguro. </p>
-                <p class="text-format">Como se trata de un software libre, los delincuentes informáticos no tienen mucho
-                    interés en desarrollar virus para Linux.
-                    Además, su arquitectura dificulta la aparición de malware y facilita la eliminación de cualquier
-                    amenaza.
+            <div class="col-12 col-md-4 text-center p-2">
+                <img src="img/seguridad.jpg" width="350" height="200" class="rounded" alt="...">
+            </div>
+            <div class="col-12 text-center p-4">
+                <h5>
+                    No es para juegos de PC
+                </h5>
+            </div>
+            <div class="col-12 col-md-4 text-center p-2">
+                <a href="https://youtu.be/Rlg4K16ujFw" target="_blank"><img src="img/noesparajuegos.jpg" width="350" height="200" class="rounded" alt="..."></a>
+            </div>
+            <div class="col-12 col-md-8">
+                <p>
+                    Si somos de los que nos gusta los juegos de PC, lo cierto es que aquí es donde podemos encontrar uno de los principales inconvenientes de Linux, ya que existen pocos juegos en comparación con la gran oferta o mercado de videojuegos que rodea a Windows. Muchos de los principales desarrolladores de videojuegos únicamente sacan sus títulos compatibles para el sistema operativo de Microsoft.
+                    <br><br>
+                    Complementando lo anterior, esto también es debido que la mayoría de la gente únicamente utiliza Windows, por tanto, no sale conveniente económicamente para los desarrolladores de videojuegos, la imagen de la izquierda redirige a un video (ingles) donde este tema se ve con más profundidad.
                 </p>
             </div>
-        </div>
-        <div class="card-recuadros">
-            <img src="img/4.jpg" class="card-img-top img" alt="Imagen 1" width="250" height="200">
-            <div class="card-body">
-                <p class="card-text text-title">Redes y Telecomunicaciones</p>
-                <p class="text-format">La superioridad de Linux sobre otros sistemas operativos es evidente en sus
-                    utilerías para redes y comunicaciones. Ningún otro sistema operativo incluye capacidades para red
-                    tan estrechamente acopladas.
-                    Linux soporta las siguientes interfaces de red: ethernet, fddi, token ring, arcnet, X.25, ISDN,
-                    líneas seriales síncronas y asíncronas.
+            <div class="col-12 text-center p-4">
+                <h5>
+                    Multitarea, multiusuario
+                </h5>
+            </div>
+            <div class="col-12 col-md-8">
+                <p>
+                    Su robustez, un mayor control sobre los dispositivos, las grandes posibilidades para trabajar en modo multiusuario y las capacidades multitarea son sin duda otras de las características a destacar de Linux. Ahora bien, también hay ciertas limitaciones o inconvenientes a la hora de usar el sistema.
+                    <br><br>
+                    Linux es altamente eficiente en términos de multitarea y multiusuario. Es capaz de ejecutar múltiples procesos al mismo tiempo sin disminuir el rendimiento del sistema. Además, Linux permite la gestión avanzada de usuarios y permisos, lo que resulta muy útil en entornos empresariales o educativos donde es necesario manejar múltiples usuarios en el mismo sistema.
                 </p>
             </div>
-        </div>
-        <div class="card-recuadros">
-            <img src="img/5.jpg" class="card-img-top img" alt="Imagen 1" width="250" height="200">
-            <div class="card-body">
-                <p class="card-text text-title">Ambiente Gráfico</p>
-                <p class="text-format">Linux proporciona la capacidad de ejecutar aplicaciones gráficas mediante una red
-                    heterogénea al incorporar la revisión 6 del estándar X11 del MIT, conocido también simplemente como
-                    X-Window.
-                    Con el hardware adecuado, las Estaciones de Trabajo Linux son una alternativa de bajo costo a las
-                    Estaciones de Trabajo de alto rendimiento.
-                </p>
+            <div class="col-12 col-md-4 text-center p-4">
+                <img src="img/multi.png" width="350" height="200" class="rounded" alt="">
             </div>
         </div>
+
     </div>
--->
-    <!--Fin 5 recuadros con imagen y texto-->
 
     <section name="scriptsJS">
         <script src="js/bootstrap.bundle.js"></script>
